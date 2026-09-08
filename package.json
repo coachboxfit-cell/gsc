@@ -1,0 +1,24 @@
+{
+  "name": "gsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coachboxfit-cell/gsc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coachboxfit-cell/gsc/issues"
+  },
+  "homepage": "https://github.com/coachboxfit-cell/gsc#readme",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^17.4.2"
+  }
+}
