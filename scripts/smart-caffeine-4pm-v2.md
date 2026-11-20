@@ -1,5 +1,7 @@
 # Smart Caffeine – "4 Baje Wali Thakaan" v2 (30 sec, Hinglish)
 
+Voiceover: `audio/11_4PM_v2_Monika_27s.mp3` (Monika, eleven_v3, 1.25x, 27.1s). Word timestamps: `audio/11_4PM_v2_word-timestamps.json`.
+
 Based on the uploaded recommendations (`improved_script_recommendations.md`), kept in Hinglish.
 Changes from FINAL v1: shorter hook with a pause, "crash" became "wahi thakaan", the
 "focus aata hai, jitters nahi" claim and "Na break, na crash" are removed, there's a
