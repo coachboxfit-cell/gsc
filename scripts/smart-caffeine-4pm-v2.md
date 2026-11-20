@@ -1,6 +1,6 @@
 # Smart Caffeine – "4 Baje Wali Thakaan" v2 (30 sec, Hinglish)
 
-Voiceover (FINAL): `audio/12_4PM_FINAL_Monika.mp3` (Monika, eleven_v3, 1.25x, 23.7s). Word timestamps: `audio/12_4PM_FINAL_word-timestamps.json`. Label line removed.
+Voiceover (FINAL): `audio/12_4PM_FINAL_Monika.mp3` (Monika, eleven_v3, 1.25x, 26.6s). Word timestamps: `audio/12_4PM_FINAL_word-timestamps.json`. Label line removed.
 
 Based on the uploaded recommendations (`improved_script_recommendations.md`), kept in Hinglish.
 Changes from FINAL v1: shorter hook with a pause, "crash" became "wahi thakaan", the
@@ -14,7 +14,7 @@ the ending is a statement, not a question.
 | 10–14s | Energy spike then dip graphic | "Aur break mil bhi jaaye, toh thodi der ki energy… phir wahi thakaan." |
 | 14–22s | Sachet from desk onto tongue (show it melting on this line) | "Isliye main apne paas rakhti hoon Smart Caffeine. Chhota sa mouth-melt sachet: desk pe rakho, tongue pe daalo, kuch seconds mein ghul jaata hai." |
 | 22–27s | Pack close-up with the label visible | "Isme caffeine ke saath L-theanine bhi hai." |
-| 27–30s | Look to camera | "Bas yahi hai mera 4 baje wala saathi." |
+| 27–30s | Look to camera | "Ek sachet, aur OPD phir se shuru… subah wali energy ke saath!" |
 
 End card: *Personal experience. Not medical advice.*
 
@@ -29,4 +29,4 @@ OPD फुल, एक के बाद एक केस... और दिमा�
 [tired] और ब्रेक मिल भी जाए, तो थोड़ी देर की एनर्जी... फिर वही थकान।
 [confident] इसलिए मैं अपने पास रखती हूँ Smart Caffeine. छोटा सा mouth-melt सैशे: डेस्क पे रखो, टंग पे डालो, कुछ सेकंड्स में घुल जाता है।
 इसमें कैफ़ीन के साथ L-theanine भी है।
-[warm, confident] बस यही है मेरा चार बजे वाला साथी।
+[energetic, cheerful] एक सैशे, और OPD फिर से शुरू... सुबह वाली energy के साथ!
