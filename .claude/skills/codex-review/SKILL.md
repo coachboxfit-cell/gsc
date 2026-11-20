@@ -5,7 +5,7 @@ description: Send Meta ads output (hooks, primary text, headlines, scripts, crea
 
 # Codex review loop for Meta ads
 
-This runs on the user's own computer, where Codex is installed and signed in.
+This runs on the user's own computer, where the Codex CLI is installed and signed in (`codex login`).
 
 ## 1. Save the draft
 
@@ -17,23 +17,15 @@ If the user names an existing file, review that file instead.
 
 ## 2. Ask Codex
 
-Send Codex this prompt, with the draft pasted in full where the placeholder is:
+Run Codex non-interactively in a read-only sandbox, from the repository root. Codex reads the files itself, so nothing needs to be pasted or quoted:
 
-> You are a senior Meta ads reviewer. Review the ads below. Do not rewrite them in full.
-> For each variant, score 1-10 on each of: hook (first 125 characters), clarity of the offer, CTA, fit with the audience, and Meta ad-policy risk (personal attributes such as "Are you overweight?", before/after claims, health or income promises, sensational language).
-> Then list your top 5 specific changes, most important first. Quote the exact line each change applies to and say why.
-> End with one line, "Ship / Revise / Rework", for each variant.
->
-> --- ADS ---
-> {draft}
+```bash
+codex exec --sandbox read-only "Follow the instructions in .claude/skills/codex-review/reviewer-prompt.md and review ads/drafts/<slug>.md." > ads/reviews/<slug>-codex.md
+```
 
-How to send it:
-- **Preferred:** call the Codex MCP tool (usually `mcp__codex__codex`, from `.mcp.json`) with that prompt and `sandbox: "read-only"`.
-- **Fallback**, if the MCP tool is unavailable:
-  `codex exec --sandbox read-only "$(cat <prompt-file>)"`
-  Write the prompt to a temporary file first.
-
-Save Codex's full reply to `ads/reviews/<slug>-codex.md`.
+- This can take a minute or two. Give the command a timeout of at least 5 minutes.
+- If the output file is empty or holds only progress logs, run the command again without the `>` redirect and save Codex's final answer to that file yourself.
+- If `codex` is not found, or it reports that the user is not logged in, stop and tell the user to run `codex login` in PowerShell.
 
 ## 3. Apply the feedback, critically
 
