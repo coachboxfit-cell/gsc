@@ -4,8 +4,8 @@ Voiceover (FINAL): `audio/12_4PM_FINAL_Monika.mp3` (Monika, eleven_v3, 1.25x, 25
 
 Based on the uploaded recommendations (`improved_script_recommendations.md`), kept in Hinglish.
 Changes from FINAL v1: shorter hook with a pause, "crash" became "wahi thakaan", the
-"focus aata hai, jitters nahi" claim and "Na break, na crash" are removed, there's a
-"label padhiye" line, and the closing question is simpler.
+"focus aata hai, jitters nahi" claim and "Na break, na crash" are removed, and
+the closing question is simpler.
 
 | Time | Visual | Line |
 |---|---|---|
